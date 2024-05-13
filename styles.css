@@ -1,0 +1,761 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+
+body{
+    position: relative;
+}
+html {
+    scroll-behavior: smooth; /* Activer le défilement fluide pour toute la page */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+.hr-c{
+    margin-top: -20px;
+    margin-left: 110px;
+    margin-right: 105px;
+}
+
+
+
+header img {
+    width: 200px;
+}
+
+section.top-page {
+    
+}
+/* menu navigation */
+
+nav {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 400px;
+    /* margin: 0 15px; */
+}
+
+nav a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #777777;
+}
+nav a:hover{
+    color: #007bff;
+}
+.bt1 {
+    background-color: #007bff;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bt1 a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+/* home */
+
+#home {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: calc(60vh - 50px);
+    justify-content: space-between;
+}
+#home .left{
+    width: 48%;
+    height: 100%;
+}
+#home .left h2 {
+    font-size: 50px;
+}
+.jaune{
+    color: #ffd700;
+}
+
+#home .left p{
+    font-size: 18px;
+    width: 55%;
+    color: #777777;
+    
+}
+.but{
+    margin-top: -40px;
+}
+.button1{
+    border: none;
+    padding: 10px 45px;
+    cursor: pointer;
+    border-radius: 8px ;
+    margin-right: 40px;
+    background-color: #007bff;
+}
+
+.button2{
+    border: 1px solid #777777;
+    margin-top: 60px;
+    width: fit-content;
+    padding: 10px 45px;
+    cursor: pointer;
+    border-radius: 8px ;
+    margin-right: 40px;
+}
+.but .button1 a{
+    text-decoration: none;
+    color: #ccc;
+}
+.but .button2 a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+#home .right-img{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home .right-img img{
+    width: 90%;
+}
+
+/* Style de la section service */
+#services {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    background-color: #007bff;
+    padding: 30px;
+}
+
+  /* Style de la partie gauche du service */
+.left-service {
+    flex: 1;
+    margin-left: 117px;
+}
+
+  /* Style de la partie droite du service */
+.right-service {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 105px;
+
+}
+
+
+.service-call, .service-date, .service-consult {
+    text-align: center;
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    background-color: #ffffff; 
+    font-size: 17px;
+    border-radius: 7px;
+    width: 20%;
+}
+.left-service h2{
+    font-size: 30px;
+    width: 400px;
+    color: #fff;
+}
+.left-service p{
+    color: #fff;
+}
+
+/* our service */
+
+#our-service{
+    display: flex;
+    /* align-items: center; */
+    margin-left: 5%;
+    margin-right: 25%;
+    height: calc(60vh);
+    justify-content: space-between;
+}
+
+.right-icone{
+    display: flex;
+    margin-top:50px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.right-icone .all-icone{
+    margin: 10px;
+}
+.right-icone h3{
+    margin-left: 70px;
+}
+
+.all-icone{
+    display: flex;
+}
+.all-icone img{
+    height: 20px;
+}
+.all-icone p{
+    margin-top: 0px;
+}
+
+.class-icone{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.left-p div img{
+    margin-top: 20px;
+}
+.right-p div img{
+    margin-top: 20px;
+}
+
+/* what makes us more special */
+#special {
+    margin-top: 150px;
+    /* background-color: #0056b3; */
+}
+
+.class-2{
+    /* display: flex; */
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 120px;
+    line-height: 10px;
+    
+}
+
+#special .key {
+    text-align: end;
+    margin-top: -50px;
+    
+}
+#special .key p{
+    text-align: start;
+    font-size: 35px;
+}
+
+#special h1{
+    margin-top: 40px;
+    font-size: 50px;
+}
+#special hr{
+    margin-left: 230px;
+    margin-top: -20px;
+}
+#special h2{
+    margin-top: -50px;
+    font-size: 50px;
+    margin-right: 1000px;
+}
+#special .jaune h1{
+    color: #ffd700;
+}
+
+
+/* consult with our doctor */
+.class2{
+    /* display: flex; */
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 120px;
+    line-height: 10px;
+}
+
+#special .left-s {
+    text-align: start;
+    margin-top: -50px;
+    
+}
+#special .left-s p{
+    font-size: 45px;
+}
+
+#special h1{
+    margin-top: 40px;
+    font-size: 50px;
+}
+#special hr{
+    margin-left: 230px;
+    margin-top: -20px;
+}
+#special h2{
+    margin-top: -50px;
+    font-size: 50px;
+    text-align: end;
+}
+#special .jaune h1{
+    color: #ffd700;
+}
+
+/* suite offre CSS */
+#offre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+}
+.elements .element {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
+.element{
+    background-color: #EBEBEB;
+}
+.elements .element p {
+    text-align: center;
+    font-size: 18px;
+}
+/* your smile */
+#smiles {
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    background-color: #0044ffb1;
+    padding: 40px;
+    color: #fff;
+}
+#smiles .big-word{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#smiles p{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.border{
+    border: 2px solid#ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 540px;
+}
+
+/* who we are CSS */
+#who{
+    margin-top: 200px;
+}
+
+.who-w{
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 120px;
+    line-height: 10px;
+    
+}
+
+#who .who-w {
+    text-align: end;
+    margin-top: -50px;
+    
+}
+#who .who-w p{
+    text-align: end;
+    font-size: 45px;
+}
+
+#who h1{
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: start;
+}
+#who hr{
+    margin-right: 300px;
+    margin-top: -20px;
+    width: 870px;
+}
+#who h2{
+    margin-top: -50px;
+    font-size: 50px;
+}
+#who .jaune h1{
+    color: #ffd700;
+}
+
+.who-we-are{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 100px;
+}
+.who-we-are img{
+    width: 70%;
+    margin-left: 100px;
+}
+.our{
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    width: 600px;
+    height: 280px;
+    margin-left: 600px;
+    margin-top: -350px;
+    line-height: 30px;
+    padding: 50px;
+}
+
+/* Meet our Doctors */
+#doctor{
+    background-color: #EBEBEB;
+    height: 400px;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.class1{
+    /* display: flex; */
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 120px;
+    line-height: 10px;
+    
+}
+
+#doctor .right-d {
+    text-align: end;
+    margin-top: -50px;
+    
+}
+#doctor .right-d p{
+    text-align: start;
+    font-size: 45px;
+}
+
+#doctor h1{
+    margin-top: 40px;
+    font-size: 50px;
+}
+#doctor hr{
+    margin-left: 230px;
+    margin-top: -20px;
+}
+#doctor h2{
+    margin-top: -50px;
+    font-size: 50px;
+}
+#doctor .jaune h1{
+    color: #ffd700;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 190px;
+    margin-top: 80px;
+    height: 70%;
+}
+.comments .comment div img {
+    width: 140px;
+    height: 140px;
+    border: 2px;
+    border-radius: 50%;
+}
+.comments .comment div h4, .pg{
+    text-align: center;
+    line-height: 0px;
+}
+.appoinment{
+    text-align: center;
+    border: 2px solid#0044ffb1;
+    border-radius: 5px;
+    background-color: #EBEBEB;
+    color: #0044ffb1;
+}
+
+/* samantha */
+
+#samantha{
+    display: flex;
+    align-items: center;
+    height: calc(50vh - 50px);
+    background-color: #0044ffb1;
+}
+
+.right-s{
+    text-align: justify;
+    padding: 10px 30px;
+    width: 400px;
+    margin-left: 200px;
+    color: #fff;
+    margin-left: 6%;
+}
+.left-s{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+.left-s img{
+    border-radius: 7px;
+    width: 120px;
+}
+
+/* Appoinment CSS */
+#appoinment{
+    padding: 40px;
+}
+
+#appoinment .right-d {
+    text-align: start;
+    margin-top: -50px;
+    
+}
+#appoinment .right-d p{
+    text-align: end;
+    font-size: 45px;
+}
+
+#appoinment h1{
+    margin-top: 40px;
+    font-size: 40px;
+}
+#appoinment hr{
+    margin-right: 200px;
+    margin-top: -30px;
+}
+#appoinment h2{
+    font-size: 50px;
+    text-align: end;
+    margin-top: -40px;
+}
+#appoinment .jaune h1{
+    color: #ffd700;
+}
+#appoinment .container{
+    display: flex;
+}
+.container{
+    display: grid;
+}
+.right-c{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.right-c textarea{
+    width: 620px;
+    margin-left: 20px;
+    resize: none;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid silver;
+}
+.class .right-c {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+/* Style pour l'étiquette (label) */
+.class label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.class select {
+    width: 100%;
+    padding: 8px;
+
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid silver;
+    border-radius: 5px;
+}
+
+
+/* .class{
+    display: flex;
+    flex-direction: column;
+} */
+.right-c input{
+    width: 300px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    cursor: pointer;
+}
+.right-c label{
+    margin-left: 20px;
+}
+.right-c button{
+    width: 600px;
+}
+#appoinment button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+#agree{
+    width: 20px;
+    height: 15px;
+}
+.check label{
+    margin-left: 0;
+}
+
+
+/* sub */
+#sub{
+    background-color: #bcbcbc9e;
+    padding: 30px;
+    height: 170px;
+    text-align: center;
+}
+.subs{
+    background-color: #216683;
+    border-radius: 20px;
+    width: 150vh;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.subs-now input::placeholder{
+    color: #ffffff;
+}
+
+.subs-now input{
+    background-color: #0074b3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.subscribe-now{
+    background-color: #ccc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.titre-subs{
+    color: #ffffff;
+}
+
+.class-name{
+    display: flex;
+}
+
+/* dentis */
+#dentisc{
+    padding: 30px;
+    background-color: #007bff;
+    display: flex;
+    
+}
+.border-bleu{
+    display: flex;
+    justify-content: space-between;
+}
+.dentic{
+    width: 280px;
+    margin-left: 70px;
+    border-right: 1px solid silver;
+}
+.we-are-welcome{
+    width: 240px;
+    margin-left: 80px;
+    border-right: 1px solid silver;
+}
+.important{
+    width: 240px;
+    margin-left: 30px;
+    border-right: 1px solid silver;
+}
+.say{
+    width: 280px;
+    margin-left: 70px;
+}
+.you{
+    font-size: 10px;
+}
+.import{
+    font-size: 10px;
+}
+.want-to{
+    font-size: 20px;
+    width: 110px;
+}
+.link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 0px;
+    font-size: 15px;
+}
+.say-hello{
+    font-size: 10px;
+}
+.adresse{
+    font-size: 10px;
+}
+.dentic img{
+    filter: brightness(0) invert(1);
+}
+#dentisc{
+    color: #ffffff;
+}
+
+.footer{
+    display: flex;
+    background-color: #216683 ;
+    height: 50px;
+    margin-top: -5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
