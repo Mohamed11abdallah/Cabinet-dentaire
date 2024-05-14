@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="En">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
         <header class="header">
             <img src="images/logo.png" alt="Logo du site">
             <nav class="nav">
-                <li><a href="#home">Home</a></li>
+                <li><a class="home-bleu" href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#who">About us</a></li>
                 <li><a href="#sub">Register</a></li>
@@ -298,11 +298,11 @@
             <div class="left-c">
             <img src="images/contact.png">
         </div>
-        <div class="right-c">
+        <form class="right-c">
             <div class="class">
                 <label for="name">Nom</label>
                 <input type="text" id="name" name="name" placeholder="Full name" required></div>
-                <div class="class">
+            <div class="class">
                     <label for="number">Number</label>
                     <input type="text" id="number" name="phone" placeholder="+01 (555) 000-0000" required></div>
             <div class="class">
@@ -324,13 +324,13 @@
             </div>
             <div class="check">
                 <input type="checkbox" id="agree" name="agree">
-    <label for="agree">You Agree to our privacy policy.</label>
+                <label for="agree">You Agree to our privacy policy.</label>
             </div>
             <div class="class-but">
                 <button>Confirm Appoinment</button>
             </div>
 
-        </div>
+        </form>
         </div>
         
     </section>
@@ -340,11 +340,11 @@
             <div class="titre-subs">
                 <h2>Subscribe to our newsletter</h2>
             </div>
-            <div class="subs-now">
+            <form class="subs-now">
                 <input type="name" placeholder="Full name">
                 <input type="email" placeholder="Email address">
                 <button class="subscribe-now">Subscribe Now</button>
-            </div>
+            </form>
             <div class="class"></div>
         </div>
     </section>
@@ -353,7 +353,7 @@
     <section id="dentisc">
         <section class="border-bleu">
             <div class="dentic">
-                <img src="images/logo.png" alt="">
+                <img src="images/logo.png">
                 <p>Dentics is a well-known name in dental and oral care in New
                     York. The journey of this institution started in 1990</p>
             </div>
@@ -367,14 +367,17 @@
             <div class="important">
                 <p class="import">Important link</p>
                 <div class="link">
-                    <p>Facebook</p>
-                    <p>Career</p>
-                    <p>Twitter</p>
-                    <p>Support</p>
-                    <p>Instagram</p>
-                    <p>Privacy policy</p>
+                    <p><a href="https://www.facebook.com">Facebook</a></p>
+                    <p><a href="lien_career">Career</a></p>
+                    <p><a href="https://twitter.com">Twitter</a></p>
+                    <p><a href="lien_support">Support</a></p>
+                    <p><a href="https://www.instagram.com">Instagram</a></p>
+                    <p><a href="lien_privacy">Privacy policy</a></p>
                 </div>
             </div>
+            
+            
+            
             <div class="say">
                 <p class="say-hello">Say hello to us</p>
                 <p>hello@reallygreatsite.com</p>
