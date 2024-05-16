@@ -31,14 +31,27 @@ section.top-page {
     
 }
 /* menu navigation */
+.nav ul {
+    /* Styles pour la liste non ordonnée */
+    list-style-type: none; /* Pour enlever les puces */
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+    display: inline;
+    margin-right: 10px; /* Vous pouvez ajuster cette valeur pour l'espace entre les liens */
+}
+.nav ul li a {
+    text-decoration: none;
+    color: 777777;
+}
 
 nav {
     display: flex;
     list-style: none;
     width: 300px;
     justify-content: space-between;
-    margin-left: 400px;
-    /* margin: 0 15px; */
+    margin-left: 650px;
 }
 
 nav a{
@@ -46,9 +59,9 @@ nav a{
     text-decoration: none;
     color: #777777;
 }
-/* nav a:hover{
-    color: #007bff;
-} */
+nav a:hover{
+    color: #516eff;
+}
 .bt1 {
     background-color: #516eff;
     padding: 10px 20px;
@@ -79,7 +92,7 @@ nav a{
     height: 100%;
 }
 #home .left h2 {
-    font-size: 50px;
+    font-size: 55px;
 }
 .jaune{
     color: #ffd700;
@@ -644,16 +657,22 @@ button:hover {
 /* sub */
 #sub{
     background-color: #bcbcbc9e;
-    padding: 30px;
+    padding: 30px 0;
     height: 170px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
 }
 .subs{
+    /* justify-content: center; */
     background-color: #216583;
     border-radius: 20px;
     width: 150vh;
-    padding: 30px;
-    margin-left: 100px;
+    /* padding: 70px; */
+
+
+    /* align-items: center; */
+    /* margin-left: 100px; */
 }
 
 .subs-now input::placeholder{
@@ -666,6 +685,18 @@ button:hover {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 170px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    height: 20px;
+}
+.subs-now{
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .subscribe-now{
     background-color: #ffffff;
@@ -674,9 +705,24 @@ button:hover {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 170px;
 }
 .titre-subs{
     color: #ffffff;
+    text-align: center;
+}
+.titre-subs h2{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 700px;
+    font-size: 43px;
 }
 
 .class-name{
