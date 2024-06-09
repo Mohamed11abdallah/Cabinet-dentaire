@@ -6,6 +6,7 @@
 
 }
 
+
 section{
     margin-top: 50px;
 }
@@ -67,6 +68,9 @@ header img{
     text-decoration: 0;
     color: #777777;
     position: relative;
+}
+.menu .blue-link {
+    color: blue;
 }
 /* button appoinment */
 
@@ -858,6 +862,9 @@ textarea{
 /* responsive mobile*/
 
 @media (max-width:500.85px) {
+    .menu .blue-link {
+        color: blue;
+    }
     #home {
         display: flex;
         flex-direction: column;
@@ -1202,6 +1209,9 @@ textarea{
 /* responsive tablet*/
 
 @media (min-width:500.85px) and (max-width: 900.117px){
+    .menu .blue-link {
+        color: blue;
+    }
     #home {
         display: flex;
         flex-direction: column;
