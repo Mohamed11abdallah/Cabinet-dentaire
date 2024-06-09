@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Logo du site">
+            <nav class="nav">
+                <ul class="menu" >
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#who-we-are">About us</a></li>
+                    <li><a href="index.html#appointment">Appointment</a></li>
+                    <li><a href="sign-up.html">Sign Up</a></li>
+                </ul>
+            </nav>
+            <button class="btn-appoinment"><a href="login.html">Login</a>
+            </button>
+    </header>
+
+    <div class="horizontal-line"></div>
+
+    <!-- toggle -->
+    <div class="toggle_menu"></div>
+
+    <section id="sign-first">
+        <div class="sign-container">
+            <div class="border">
+                <form class="form-sign" method="post" >
+                    <div class="full-name">
+                        <label for="name">Full name:</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="number">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="confirm-password">
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Confirm your password" required>
+                    </div>
+                    
+                    <div class="btn-create">
+                        <button>Sign Up</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="right-logo">
+                <img src="images/log.png" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
