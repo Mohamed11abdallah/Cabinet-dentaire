@@ -56,8 +56,6 @@ header img{
 }
 .menu{
     display: flex;
-    margin-left: 600px;
-    /* background-color: rgb(228, 163, 10); */
 }
 .menu li{
     margin: 0 15px;
@@ -66,26 +64,31 @@ header img{
 .menu li a{
     font-size: 15px;
     text-decoration: 0;
-    color: #777777;
+    color: #52525B;
     position: relative;
 }
 .menu .blue-link {
-    color: blue;
+    color: #516eff;
 }
 /* button appoinment */
 
-.btn-appoinment{
+.menu .border-link {
     background-color: #516eff;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    /* text-decoration: none; */
+    color: #ffffff;
+    
 }
-.btn-appoinment a{
+.login{
+    color: #ffffff;
+}
+a .btn-appoinment {
     text-decoration: none;
     color: #ffffff;
 }
+
 
 /* section home */
 
@@ -137,13 +140,13 @@ span{
 .left-we-provide h1{
     font-size: 50px;
     width: 600px;
-    
+    color: #18181B;
 }
 .left-we-provide p{
     font-size: 18px;
     width: 330px;
     margin-top: 30px;
-    color: #777777;
+    color: #52525B;
 }
 
 /* services */
@@ -158,15 +161,15 @@ span{
 }
 #services .service-icons{
     display: flex;
+    color: #52525B;
 }
 .service-call, .service-date, .service-consult {
     text-align: center;
-    border: 1px solid #ffffff;
     padding: 25px;
     background-color: #ffffff;
     font-size: 17px;
     border-radius: 8px;
-    width: 140px;
+    width: 150px;
     margin: 10px;
 }
 
@@ -200,6 +203,9 @@ span{
     width: 350px;
     height: 300px;
     /* margin-top: 50px; */
+}
+.we-provide{
+    color: #18181B;
 }
 .we-provide h3{
     font-size: 20px;
@@ -238,8 +244,9 @@ span{
 .icons-titre2{
     margin-top: 80px;
     font-size: 25px;
-    /* background-color: #25512f; */
-    /* margin-left: 80px; */
+}
+.icons-titre2 .all-icone p{
+    margin-left: 10px;
 }
 
 /* our services */
@@ -255,6 +262,7 @@ span{
 }
 #our-services h1{
     font-size: 40px;
+    color: #18181B;
 }
 
 #our-services .services-icons{
@@ -276,14 +284,16 @@ span{
     border-radius: 6px;
     margin-bottom: 35px;
     padding: 25px;
+    color: #18181B;
 }
 .services-iconnes{
-    background-color: #d4d3d5;
+    background-color: #F8FAFC;
 }
 
 .services-icons .services-iconnes p{
     text-align: center;
     width: 65%;
+    color: #52525B;
 }
 .services-icons .services-iconnes img{
     width: 90px;
@@ -301,6 +311,7 @@ span{
 #who-we-are h1{
     font-size: 40px;
     text-align: center;
+    color: #18181B;
 }
 .second-horizontal{
     width: 100%;
@@ -318,7 +329,7 @@ span{
     width: 40%;
 }
 .right-history{
-    background-color: #d4d3d5;
+    background-color: #F8FAFC;
     padding: 10px 50px;
     width: 40%;
     height: 100%;
@@ -327,7 +338,7 @@ span{
     justify-content: center;
     margin-top: 10px;
     border-radius: 20px;
-    border: 3px solid #c8c5cb;
+    
 }
 .who-we img{
     width: 400px;
@@ -336,11 +347,12 @@ span{
 }
 #who-we-are .who-we h3{
     font-size: 30px;
+    color: #18181B;
 }
 #who-we-are .who-we p{
     font-size: 20px;
     margin-top: 20px;
-    color: #777777;
+    color: #52525B;
 }
 
 /* meet our doctors */
@@ -355,6 +367,7 @@ span{
 #our-doctors h1{
     font-size: 40px;
     text-align: center;
+    color: #18181B;
 }
 .third-horizontal{
     width: 100%;
@@ -370,7 +383,7 @@ span{
     margin-top: 30px;
 }
 .all-doctors .doctors{
-    border: 1px solid #d4d3d5;
+    border: 1px solid #52525B;
     height: 320px;
     width: 300px;
     border-radius: 10px;
@@ -384,13 +397,14 @@ span{
     text-align: center;
     font-size: 18px;
     margin-top: 15px;
+    color: #18181B;
 }
 .all-doctors .doctors p{
     text-align: center;
     font-size: 15px;
     margin-top: 10px;
     line-height: 10px;
-    color: #777777;
+    color: #52525B;
 }
 .all-doctors .doctors .appoinment{
     text-align: center;
@@ -415,6 +429,7 @@ span{
 #appointment h1{
     font-size: 40px;
     text-align: center;
+    color: #18181B;
 }
 .container{
     display: flex;
@@ -439,6 +454,7 @@ span{
     /* background-color: #25512f; */
     width: 500px;
     height: 400px;
+    color: #18181B;
 }
 .class-form{
     display: flex;
@@ -449,12 +465,14 @@ span{
 }
 .class-form select{
     height: 35px;
+    back
 }
 .class-form label{
     font-size: 15px;
 }
 .class-form input{
     height: 35px;
+    padding-left: 10px;
 }
 .right-c .class-form-message{
     /* background-color: #516eff; */
@@ -472,6 +490,7 @@ span{
 textarea{
     resize: none;
     height: 130px;
+    padding-left: 10px;
 }
 
 .check{
@@ -493,11 +512,14 @@ textarea{
     border: none;
     border-radius: 8px;
 }
+::placeholder{
+    color: #52525B;
+}
 
 /* subscribe to our newsletter */
 
 #subscribe{
-    background-color: #bcbcbc9e;
+    background-color: #BCBCBC;
     height: calc(40vh - 20px);
     display: flex;
     justify-content: center;
@@ -521,14 +543,14 @@ textarea{
 }
 
 .subs-now input{
-    background-color: #bcbcbc9e;
+    background-color: #BCBCBC;
     height: 40px;
     width: 200px;
     border-radius: 5px;
     border: none;
     margin: 4px;
     margin-top: 50px;
-    color: #ffffff;
+    padding-left: 10px;
 }
 .subscribe-now{
     background-color: #ffffff;
@@ -677,20 +699,27 @@ textarea{
     height: 600px;
     
 }
+.border-form h2{
+    color: #ffd700;
+    font-size: 40px;
+    background-color: #516eff;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
 .border{
     border: 5px solid #516eff;
     border-radius: 20px;
     width: 450px;
     height: 500px;
     margin-top: 50px;
-    
 }
 .border .form-sign{
     /* background-color: #25512f; */
     height: 80%;
     display: grid;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 5%;
     
 }
 
@@ -700,12 +729,15 @@ textarea{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    
+}
+.form-sign{
+    color: #18181B;
 }
 .form-sign input{
     height: 35px;
-    border: 1px solid #d4d3d5;
+    border: 1px solid #BCBCBC;
     border-radius: 8px;
+    padding-left: 10px;
 }
 .form-sign label{
     font-size: 20px;
@@ -773,7 +805,14 @@ textarea{
     margin-left: 5%;
     margin-right: 5%;
 }
-
+.sign-container .border h2{
+    color: #ffd700;
+    background-color: #516eff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
 #sign-first .sign-container{
     display: flex;
     justify-content: space-around;
@@ -794,7 +833,10 @@ textarea{
     height: 50%;
     display: grid;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 15%;
+}
+.form-login{
+    color: #18181B;
 }
 
 .form-login .number, .password, .confirm-password{
@@ -808,6 +850,7 @@ textarea{
     height: 35px;
     border: 1px solid #d4d3d5;
     border-radius: 8px;
+    padding-left: 10px;
 }
 .form-login label{
     font-size: 20px;
@@ -863,7 +906,15 @@ textarea{
 
 @media (max-width:500.85px) {
     .menu .blue-link {
-        color: blue;
+        color: #516eff;
+    }
+    .menu .border-link {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #ffffff;
+        top: 10px;
     }
     #home {
         display: flex;
@@ -877,36 +928,32 @@ textarea{
         width: 400px;
     }
     .left-we-provide h1{
-        font-size: 50px;
+        font-size: 40px;
         width: 350px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        /* margin-top: 10px; */
+        color: #18181B;
     }
     .left-we-provide p{
         /* background-color: #ea2525; */
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        color: #52525B;
+        margin-top: 50px;
     }
     .right-dental{
-        /* background-color: #ea2525;
-        width: 400px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center; */
         display: none;
     }
     .right-dental img{
         /* width: 300px;
         height: 200px; */
-        
     }
     .btn-make-an{
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20px;
+        margin-top: 60px;
     }
     /* services */
 
@@ -928,10 +975,11 @@ textarea{
         display: flex;
         flex-direction: column;
         margin-top: 30px;
+        color: #52525B;
     }
     .service-call, .service-date, .service-consult{
-        width: 250px;
-        height: 150px;
+        width: 240px;
+        height: 155px;
     }
     .service-icons p{
         font-size: 20px;
@@ -942,9 +990,13 @@ textarea{
     }
     .service-icons img{
         width: 25%;
+        color: #52525B;
     }
     /* what we provide */
+    .we-provide h3{
+        color: #18181B;
 
+    }
     .provide{
         display: flex;
         flex-direction: column;
@@ -963,12 +1015,15 @@ textarea{
     .wwp{
         display: flex;
         flex-direction: column;
+        color: #18181B;
     }
     .icons-titre{
         margin-top: 30px;
+        color: #18181B;
     }
     .icons-titre2{
         margin-top: 0px;
+        color: #18181B;
     }
     .icons-titre2 p{
         margin-left: 10px;
@@ -983,6 +1038,7 @@ textarea{
     }
     #our-services h1{
         font-size: 30px;
+        color: #18181B;
     }
     .services-icons .services-iconnes{
         display: flex;
@@ -996,9 +1052,11 @@ textarea{
         text-align: center;
         width: 100%;
         margin-top: 15px;
+        color: #52525B;
     }
     .services-icons .services-iconnes h2{
         text-align: center;
+        color: #18181B;
     }
     .services-icons .services-iconnes img{
         width: 40px;
@@ -1015,6 +1073,7 @@ textarea{
     #who-we-are h1{
         font-size: 30px;
         text-align: center;
+        color: #18181B;
     }
     .who-we {
         display: flex;
@@ -1041,18 +1100,28 @@ textarea{
     /* meet our doctors */
     #our-doctors{
         height: 200%;
-
+    }
+    #our-doctors h1{
+        color: #18181B;
     }
     .all-doctors{
         display: flex;
         flex-direction: column;
         margin-top: 30px;
+        
     }
     .all-doctors .doctors{
         border: 1px solid #d4d3d5;
         border-radius: 10px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20px;
+    }
+    .all-doctors .doctors h4{
+        color: #18181B;
+    }
+    .all-doctors .doctors p{
+        color: #52525B;
     }
     .doctors img{
         height: 160px;
@@ -1077,6 +1146,8 @@ textarea{
     .subs-now input{
         margin-top: 20px;
         width: 300px;
+        padding-left: 10px;
+        
     }
     .class-but button{
         color: #ffffff;
@@ -1084,8 +1155,12 @@ textarea{
 
     /* appoinment */
 
-    .container{
-        /* display: none; */
+    #appointment{
+        height: 450px;
+    }
+
+    #appointment h1{
+        color: #18181B;
     }
     .photo-doctor{
         display: none;
@@ -1095,10 +1170,13 @@ textarea{
         /* width: 500px; */
         width: 100%;
     }
-    #appointment{
-        height: 450px;
+    .class-form label{
+        color: #18181B;
     }
-
+    .class-form input{
+        color: #52525B;
+    }
+    
     /* footer */
 
     #footer{
@@ -1137,10 +1215,6 @@ textarea{
         display: none;
     }
 
-    /* togle */
-    /* header .btn-appoinment{
-        display: none;
-    } */
     header .menu {
         display: none;
     }
@@ -1149,7 +1223,6 @@ textarea{
     }
         
 .toggle_menu {
-        display: flex;
         height: 40px;
         width: 40px;
         display: flex;
@@ -1157,6 +1230,8 @@ textarea{
         justify-content: center;
         position: relative;
         cursor: pointer;
+        bottom: 60px;
+        left: 90%;
     }
     .toggle_menu::before {
         position: absolute;
@@ -1173,7 +1248,7 @@ textarea{
         transform: translateY(0) rotate(135deg);
         box-shadow: 0 0 0 #516eff;
     }
-.toggle_menu::after {
+    .toggle_menu::after {
         position: absolute;
         content: "";
         height: 3px;
@@ -1191,13 +1266,14 @@ textarea{
         position: absolute;
         top: 50px;
         right: 0;
+        height: 170px;
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         flex-direction: column;
-        
+        line-height: 20px;
         /* margin-left: 0%; */
     }
     header .menu .responsive li {
@@ -1211,6 +1287,14 @@ textarea{
 @media (min-width:500.85px) and (max-width: 900.117px){
     .menu .blue-link {
         color: blue;
+    }
+    .menu .border-link {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #ffffff;
+        top: 10px;
     }
     #home {
         display: flex;
@@ -1481,10 +1565,6 @@ textarea{
         display: none;
     }
 
-    /* togle */
-    /* header .btn-appoinment{
-        display: none;
-    } */
     header .menu {
         display: none;
     }
@@ -1493,7 +1573,6 @@ textarea{
     }
         
 .toggle_menu {
-        display: flex;
         height: 40px;
         width: 40px;
         display: flex;
@@ -1501,6 +1580,8 @@ textarea{
         justify-content: center;
         position: relative;
         cursor: pointer;
+        bottom: 60px;
+        left: 90%;
     }
     .toggle_menu::before {
         position: absolute;
@@ -1533,14 +1614,16 @@ textarea{
     header .menu.responsive {
         display: flex;
         position: absolute;
-        top: 50px;
+        top: 60px;
         right: 0;
+        height: 200px;
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         flex-direction: column;
+        line-height: 20px;
     }
     header .menu .responsive li {
         margin: 15px 0;
